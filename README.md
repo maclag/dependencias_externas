@@ -1,4 +1,4 @@
-# Projeto de Avaliação do Módulo de Dependências externas
+# Projeto de Avaliação do Módulo de Dependências Externas
 ### Projeto referente ao módulo 07 - Let's Code
 
 ## Desejável no projeto
