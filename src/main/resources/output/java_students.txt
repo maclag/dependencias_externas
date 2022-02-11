@@ -1,0 +1,14 @@
+LISTA DE ALUNOS DA TURMA DE JAVA:
+- Quantidade de alunos: 11
+
+Alexandre Martins
+Esther Rodrigues
+Lavínia Cunha
+Letícia Cunha
+Natália Gomes
+Pietra Martins
+Srta. Ana Júlia Ramos
+Thales Farias
+Thomas Peixoto
+Vitor Hugo Lima
+Yago Ramos
