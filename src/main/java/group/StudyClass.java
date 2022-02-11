@@ -17,20 +17,24 @@ import java.util.List;
 public class StudyClass {
 
     private final String className;
-    private final ArrayList<Student> classStudents = new ArrayList<>();
+    public final List<Student> classStudents = new ArrayList<>();
+    public final List<String> studentsName = new ArrayList<>();
 
-    public void addStudent (String name) {
-        this.classStudents.add(new Student(name));
+    private void addStudent (String name) {
+        Student student = new Student(name);
+
+        this.classStudents.add(student);
+        this.studentsName.add(student.getName());
     }
 
-    private List<String> readClassFile (String path) {
+    private List<String> readClassFile (String inputPath) {
         List<String> students = new ArrayList<>();
 
         try {
-            students = FileUtils.readLines(new File(path), StandardCharsets.UTF_8);
+            students = FileUtils.readLines(new File(inputPath), StandardCharsets.UTF_8);
             students.forEach(this::addStudent);
         } catch (FileNotFoundException e) {
-            //System.out.println("Couldn't find the file in this directory!");
+            System.out.println("Couldn't find the file in this directory!");
         } catch (IOException e) {
             e.printStackTrace();
         }

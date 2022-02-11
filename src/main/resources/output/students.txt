@@ -1,0 +1,18 @@
+LISTA DE TODOS OS ALUNOS DA ESCOLA: 
+- Quantidade de alunos: 15
+
+Alexandre Martins
+Dra. Alana Porto
+Dra. Lavínia Lopes
+Esther Rodrigues
+Lavínia Cunha
+Letícia Cunha
+Luiz Miguel Azevedo
+Nathan Nascimento
+Natália Gomes
+Pietra Martins
+Srta. Ana Júlia Ramos
+Thales Farias
+Thomas Peixoto
+Vitor Hugo Lima
+Yago Ramos
